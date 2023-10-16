@@ -87,6 +87,8 @@ declare module 'vue' {
     LoginPage: typeof import('./src/modules/auth/pages/LoginPage.vue')['default']
     MainLayout: typeof import('./src/layouts/MainLayout.vue')['default']
     MinusIcon: typeof import('./src/ui/icons/MinusIcon.vue')['default']
+    PayloadPreview: typeof import('./src/pages/PayloadPreview.vue')['default']
+    PayloadReferencePreview: typeof import('./src/components/PayloadReferencePreview.vue')['default']
     PlusIcon: typeof import('./src/ui/icons/PlusIcon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

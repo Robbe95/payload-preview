@@ -177,7 +177,7 @@ export function createHttpZodClient(
   }
 }
 
-const customAxios = axios.create({
+export const customAxios = axios.create({
   baseURL: import.meta.env.VITE_API_URL as string,
 })
 
